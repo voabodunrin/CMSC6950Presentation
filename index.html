@@ -41,8 +41,8 @@ Process, Analyze and Present the current Canadian Covid-19 data.
 # Agenda
 
 <ol>
-  <li>Minimum Core Tasks</li>
-  <li>Free Choice Tasks</li>
+  <li>Minimum Core Tasks: Q1-Q6</li>
+  <li>Free Choice Task: Interactive plot</li>
 </ol>
 
 ---
@@ -94,13 +94,20 @@ Process, Analyze and Present the current Canadian Covid-19 data.
 ---
 # Q5
 <ul>
-   <li>The code for Q5 takes in 3 arguments from the command line- province, specification of cases or deaths, and a date.</li>
+   <li>The code for Q5 takes in 3 arguments from the command line- province, specification of cases or deaths, and a date.
+<li> example input: python q5_proj.py "Nova-Scotia" "cases" "20-05-2020" </li>
+</li>
   <li>Using argparse to take in input, the code computes the doubling rate using the equation below.</li>
+<center><img src = "eqn.png" width = "250"></center>
+</ul>
+<ul>
   <li>To form the data for Q6, a shell
-script was used to run the code for all provinces/dates.</li>-
+script was used to run the code for all provinces/dates.</li>
+</li> bash q5_shell.sh 
 </ul>
 
-<center><img src = "eqn.png" width = "400"></center>
+
+<center><img src = "q6.jpg" width = "350"></center>
 
 ---
 # Q6- Canada
